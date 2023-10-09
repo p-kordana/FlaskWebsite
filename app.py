@@ -8,18 +8,24 @@ app = Flask(__name__)
 # Routes
 
 @app.route('/')
-def index():
+def me():
     return render_template('index.html')
 
+@app.route('/projects')
+def projects():
+    return render_template('index.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('index.html')
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('index.html')
 
-
-@app.route('projects')
-def projects():
-    return render_template('projects.html')
+@app.route('/fun')
+def fun():
+    return render_template('index.html')
 
 
 # Run app on localhost
