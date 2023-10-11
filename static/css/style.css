@@ -1,0 +1,26 @@
+/* 
+@color1 = #2C3333
+@color2 = #395B64
+@color3 = #A5C9CA
+@color4 = #E7F6F2 
+*/
+
+[data-bs-theme="mine"] {
+    --bs-body-color: var(--bs-white);
+    --bs-body-color-rgb: #A5C9CA;
+    --bs-body-bg: #2C3333;
+    --bs-body-bg-rgb: #395B64;
+    --bs-tertiary-bg: #395B64;
+}
+
+btn-primary {
+    background-color: #395B64;
+}
+
+h1 {
+    color: #E7F6F2;
+}
+
+p {
+    color: #A5C9CA;
+}

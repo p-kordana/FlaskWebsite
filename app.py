@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Routes
 
 @app.route('/')
-def me():
+def intro():
     return render_template('index.html')
 
 @app.route('/projects')
